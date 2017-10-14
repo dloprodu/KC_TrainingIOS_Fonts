@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		633210811F9253320035B3F9 /* backBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6332107C1F9253320035B3F9 /* backBtn@2x.png */; };
+		633210821F9253320035B3F9 /* backBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 6332107D1F9253320035B3F9 /* backBtn.png */; };
+		633210831F9253320035B3F9 /* Starjedi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6332107E1F9253320035B3F9 /* Starjedi.ttf */; };
+		633210841F9253320035B3F9 /* navBarBackgroundPortrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6332107F1F9253320035B3F9 /* navBarBackgroundPortrait@2x.png */; };
+		633210851F9253320035B3F9 /* navBarBackgroundPortrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 633210801F9253320035B3F9 /* navBarBackgroundPortrait.png */; };
 		EDCB658E17A6BCB800F341C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDCB658D17A6BCB800F341C1 /* UIKit.framework */; };
 		EDCB659017A6BCB800F341C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDCB658F17A6BCB800F341C1 /* Foundation.framework */; };
 		EDCB659217A6BCB800F341C1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDCB659117A6BCB800F341C1 /* CoreGraphics.framework */; };
@@ -22,6 +27,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6332107C1F9253320035B3F9 /* backBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "backBtn@2x.png"; path = "../../../../../../Downloads/recursos/backBtn@2x.png"; sourceTree = "<group>"; };
+		6332107D1F9253320035B3F9 /* backBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backBtn.png; path = ../../../../../../Downloads/recursos/backBtn.png; sourceTree = "<group>"; };
+		6332107E1F9253320035B3F9 /* Starjedi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Starjedi.ttf; path = ../../../../../../Downloads/recursos/Starjedi.ttf; sourceTree = "<group>"; };
+		6332107F1F9253320035B3F9 /* navBarBackgroundPortrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "navBarBackgroundPortrait@2x.png"; path = "../../../../../../Downloads/recursos/navBarBackgroundPortrait@2x.png"; sourceTree = "<group>"; };
+		633210801F9253320035B3F9 /* navBarBackgroundPortrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = navBarBackgroundPortrait.png; path = ../../../../../../Downloads/recursos/navBarBackgroundPortrait.png; sourceTree = "<group>"; };
 		EDCB658A17A6BCB800F341C1 /* Fuentes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fuentes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDCB658D17A6BCB800F341C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EDCB658F17A6BCB800F341C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -86,6 +96,11 @@
 		EDCB659317A6BCB800F341C1 /* Fuentes */ = {
 			isa = PBXGroup;
 			children = (
+				6332107D1F9253320035B3F9 /* backBtn.png */,
+				6332107C1F9253320035B3F9 /* backBtn@2x.png */,
+				633210801F9253320035B3F9 /* navBarBackgroundPortrait.png */,
+				6332107F1F9253320035B3F9 /* navBarBackgroundPortrait@2x.png */,
+				6332107E1F9253320035B3F9 /* Starjedi.ttf */,
 				EDCB659C17A6BCB800F341C1 /* AGTAppDelegate.h */,
 				EDCB659D17A6BCB800F341C1 /* AGTAppDelegate.m */,
 				EDCB659417A6BCB800F341C1 /* Supporting Files */,
@@ -164,10 +179,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				633210821F9253320035B3F9 /* backBtn.png in Resources */,
+				633210811F9253320035B3F9 /* backBtn@2x.png in Resources */,
+				633210841F9253320035B3F9 /* navBarBackgroundPortrait@2x.png in Resources */,
 				EDCB659817A6BCB800F341C1 /* InfoPlist.strings in Resources */,
 				EDCB65A017A6BCB800F341C1 /* Default.png in Resources */,
 				EDCB65A217A6BCB800F341C1 /* Default@2x.png in Resources */,
+				633210851F9253320035B3F9 /* navBarBackgroundPortrait.png in Resources */,
 				EDCB65A417A6BCB800F341C1 /* Default-568h@2x.png in Resources */,
+				633210831F9253320035B3F9 /* Starjedi.ttf in Resources */,
 				EDCB65B117A8076600F341C1 /* AGTFontViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

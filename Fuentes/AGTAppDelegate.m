@@ -67,15 +67,20 @@
                                        green:11.0 / 255.0
                                         blue:31.0 / 255.0
                                        alpha:0.5];
-    UIColor *clearGrey = [UIColor colorWithRed:227.0 / 255
-                                         green:227.0 / 255.0
-                                          blue:227.0 / 255.0
-                                         alpha:1];
+    
     [[UITableViewHeaderFooterView appearance] setTintColor: darkBlue];
     [[UILabel appearanceWhenContainedIn:[UITableViewHeaderFooterView class], nil] setTextColor:[UIColor whiteColor]];
     [[UINavigationBar appearance] setTintColor: darkRed];
     [[UITableView appearance] setSectionIndexColor: darkRed];
     
+    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"navBarBackgroundPortrait"] forBarMetrics:UIBarMetricsDefault];
+    
+    [[UINavigationBar appearance] setTitleTextAttributes:@{
+             UITextAttributeTextColor: [UIColor whiteColor],
+       UITextAttributeTextShadowColor: [UIColor colorWithRed:1.0 green:1.0 blue:1.0 alpha:0.8],
+      UITextAttributeTextShadowOffset: [NSValue valueWithUIOffset:UIOffsetMake(0, -1)],
+                  UITextAttributeFont: [UIFont fontWithName:@"Star Jedi" size:20]
+}];
 }
 
 
