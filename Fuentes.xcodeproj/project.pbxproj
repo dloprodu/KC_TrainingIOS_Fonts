@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDCB658E17A6BCB800F341C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDCB658D17A6BCB800F341C1 /* UIKit.framework */; };
+		EDCB659017A6BCB800F341C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDCB658F17A6BCB800F341C1 /* Foundation.framework */; };
+		EDCB659217A6BCB800F341C1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDCB659117A6BCB800F341C1 /* CoreGraphics.framework */; };
+		EDCB659817A6BCB800F341C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDCB659617A6BCB800F341C1 /* InfoPlist.strings */; };
+		EDCB659A17A6BCB800F341C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCB659917A6BCB800F341C1 /* main.m */; };
+		EDCB659E17A6BCB800F341C1 /* AGTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCB659D17A6BCB800F341C1 /* AGTAppDelegate.m */; };
+		EDCB65A017A6BCB800F341C1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EDCB659F17A6BCB800F341C1 /* Default.png */; };
+		EDCB65A217A6BCB800F341C1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDCB65A117A6BCB800F341C1 /* Default@2x.png */; };
+		EDCB65A417A6BCB800F341C1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDCB65A317A6BCB800F341C1 /* Default-568h@2x.png */; };
+		EDCB65AC17A6BEF200F341C1 /* AGTFontsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCB65AB17A6BEF200F341C1 /* AGTFontsViewController.m */; };
+		EDCB65B017A8076600F341C1 /* AGTFontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCB65AE17A8076600F341C1 /* AGTFontViewController.m */; };
+		EDCB65B117A8076600F341C1 /* AGTFontViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDCB65AF17A8076600F341C1 /* AGTFontViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EDCB658A17A6BCB800F341C1 /* Fuentes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fuentes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDCB658D17A6BCB800F341C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EDCB658F17A6BCB800F341C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EDCB659117A6BCB800F341C1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EDCB659517A6BCB800F341C1 /* Fuentes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fuentes-Info.plist"; sourceTree = "<group>"; };
+		EDCB659717A6BCB800F341C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EDCB659917A6BCB800F341C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDCB659B17A6BCB800F341C1 /* Fuentes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fuentes-Prefix.pch"; sourceTree = "<group>"; };
+		EDCB659C17A6BCB800F341C1 /* AGTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGTAppDelegate.h; sourceTree = "<group>"; };
+		EDCB659D17A6BCB800F341C1 /* AGTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGTAppDelegate.m; sourceTree = "<group>"; };
+		EDCB659F17A6BCB800F341C1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EDCB65A117A6BCB800F341C1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EDCB65A317A6BCB800F341C1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EDCB65AA17A6BEF200F341C1 /* AGTFontsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTFontsViewController.h; sourceTree = "<group>"; };
+		EDCB65AB17A6BEF200F341C1 /* AGTFontsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTFontsViewController.m; sourceTree = "<group>"; };
+		EDCB65AD17A8076600F341C1 /* AGTFontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTFontViewController.h; sourceTree = "<group>"; };
+		EDCB65AE17A8076600F341C1 /* AGTFontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTFontViewController.m; sourceTree = "<group>"; };
+		EDCB65AF17A8076600F341C1 /* AGTFontViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AGTFontViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDCB658717A6BCB700F341C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDCB658E17A6BCB800F341C1 /* UIKit.framework in Frameworks */,
+				EDCB659017A6BCB800F341C1 /* Foundation.framework in Frameworks */,
+				EDCB659217A6BCB800F341C1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDCB658117A6BCB700F341C1 = {
+			isa = PBXGroup;
+			children = (
+				EDCB659317A6BCB800F341C1 /* Fuentes */,
+				EDCB658C17A6BCB800F341C1 /* Frameworks */,
+				EDCB658B17A6BCB800F341C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDCB658B17A6BCB800F341C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDCB658A17A6BCB800F341C1 /* Fuentes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDCB658C17A6BCB800F341C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDCB658D17A6BCB800F341C1 /* UIKit.framework */,
+				EDCB658F17A6BCB800F341C1 /* Foundation.framework */,
+				EDCB659117A6BCB800F341C1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDCB659317A6BCB800F341C1 /* Fuentes */ = {
+			isa = PBXGroup;
+			children = (
+				EDCB659C17A6BCB800F341C1 /* AGTAppDelegate.h */,
+				EDCB659D17A6BCB800F341C1 /* AGTAppDelegate.m */,
+				EDCB659417A6BCB800F341C1 /* Supporting Files */,
+				EDCB65AA17A6BEF200F341C1 /* AGTFontsViewController.h */,
+				EDCB65AB17A6BEF200F341C1 /* AGTFontsViewController.m */,
+				EDCB65AD17A8076600F341C1 /* AGTFontViewController.h */,
+				EDCB65AE17A8076600F341C1 /* AGTFontViewController.m */,
+				EDCB65AF17A8076600F341C1 /* AGTFontViewController.xib */,
+			);
+			path = Fuentes;
+			sourceTree = "<group>";
+		};
+		EDCB659417A6BCB800F341C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDCB659517A6BCB800F341C1 /* Fuentes-Info.plist */,
+				EDCB659617A6BCB800F341C1 /* InfoPlist.strings */,
+				EDCB659917A6BCB800F341C1 /* main.m */,
+				EDCB659B17A6BCB800F341C1 /* Fuentes-Prefix.pch */,
+				EDCB659F17A6BCB800F341C1 /* Default.png */,
+				EDCB65A117A6BCB800F341C1 /* Default@2x.png */,
+				EDCB65A317A6BCB800F341C1 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDCB658917A6BCB700F341C1 /* Fuentes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDCB65A717A6BCB800F341C1 /* Build configuration list for PBXNativeTarget "Fuentes" */;
+			buildPhases = (
+				EDCB658617A6BCB700F341C1 /* Sources */,
+				EDCB658717A6BCB700F341C1 /* Frameworks */,
+				EDCB658817A6BCB700F341C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fuentes;
+			productName = Fuentes;
+			productReference = EDCB658A17A6BCB800F341C1 /* Fuentes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDCB658217A6BCB700F341C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AGT;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Agbo;
+			};
+			buildConfigurationList = EDCB658517A6BCB700F341C1 /* Build configuration list for PBXProject "Fuentes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EDCB658117A6BCB700F341C1;
+			productRefGroup = EDCB658B17A6BCB800F341C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDCB658917A6BCB700F341C1 /* Fuentes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDCB658817A6BCB700F341C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDCB659817A6BCB800F341C1 /* InfoPlist.strings in Resources */,
+				EDCB65A017A6BCB800F341C1 /* Default.png in Resources */,
+				EDCB65A217A6BCB800F341C1 /* Default@2x.png in Resources */,
+				EDCB65A417A6BCB800F341C1 /* Default-568h@2x.png in Resources */,
+				EDCB65B117A8076600F341C1 /* AGTFontViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDCB658617A6BCB700F341C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDCB659A17A6BCB800F341C1 /* main.m in Sources */,
+				EDCB659E17A6BCB800F341C1 /* AGTAppDelegate.m in Sources */,
+				EDCB65AC17A6BEF200F341C1 /* AGTFontsViewController.m in Sources */,
+				EDCB65B017A8076600F341C1 /* AGTFontViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDCB659617A6BCB800F341C1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDCB659717A6BCB800F341C1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDCB65A517A6BCB800F341C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EDCB65A617A6BCB800F341C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDCB65A817A6BCB800F341C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fuentes/Fuentes-Prefix.pch";
+				INFOPLIST_FILE = "Fuentes/Fuentes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EDCB65A917A6BCB800F341C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fuentes/Fuentes-Prefix.pch";
+				INFOPLIST_FILE = "Fuentes/Fuentes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDCB658517A6BCB700F341C1 /* Build configuration list for PBXProject "Fuentes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDCB65A517A6BCB800F341C1 /* Debug */,
+				EDCB65A617A6BCB800F341C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDCB65A717A6BCB800F341C1 /* Build configuration list for PBXNativeTarget "Fuentes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDCB65A817A6BCB800F341C1 /* Debug */,
+				EDCB65A917A6BCB800F341C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDCB658217A6BCB700F341C1 /* Project object */;
+}
