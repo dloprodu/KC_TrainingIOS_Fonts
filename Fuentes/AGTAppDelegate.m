@@ -73,14 +73,23 @@
     [[UINavigationBar appearance] setTintColor: darkRed];
     [[UITableView appearance] setSectionIndexColor: darkRed];
     
-    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"navBarBackgroundPortrait"] forBarMetrics:UIBarMetricsDefault];
+    [[UINavigationBar appearance] setBackgroundImage:[[UIImage imageNamed:@"navBarBackgroundPortrait"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 2, 0, 2) resizingMode: UIImageResizingModeStretch] forBarMetrics:UIBarMetricsDefault];
     
     [[UINavigationBar appearance] setTitleTextAttributes:@{
-             UITextAttributeTextColor: [UIColor whiteColor],
-       UITextAttributeTextShadowColor: [UIColor colorWithRed:1.0 green:1.0 blue:1.0 alpha:0.8],
-      UITextAttributeTextShadowOffset: [NSValue valueWithUIOffset:UIOffsetMake(0, -1)],
-                  UITextAttributeFont: [UIFont fontWithName:@"Star Jedi" size:20]
-}];
+             NSForegroundColorAttributeName: [UIColor whiteColor],
+       //UITextAttributeTextShadowColor: [UIColor colorWithRed:1.0 green:1.0 blue:1.0 alpha:0.8],
+      //UITextAttributeTextShadowOffset: [NSValue valueWithUIOffset:UIOffsetMake(0, -1)],
+                  NSFontAttributeName: [UIFont fontWithName:@"Star Jedi" size:20]}];
+    
+    // Back button
+    UIImage *backImg = [[UIImage imageNamed:@"backBtn"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 13, 0, 5)];
+    
+    [[UINavigationBar appearance] setBackIndicatorImage:nil];
+    [[UINavigationBar appearance] setBackIndicatorTransitionMaskImage:nil];
+    [[UIBarButtonItem appearance] setBackButtonBackgroundImage:backImg
+                                                      forState:UIControlStateNormal
+                                                    barMetrics:UIBarMetricsDefault];
+    
 }
 
 
