@@ -14,6 +14,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     
+    // Configurar aspecto
+    [self customizeAppearance];
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
@@ -55,6 +57,26 @@
 }
 
 
+-(void) customizeAppearance{
+    
+    UIColor *darkBlue = [UIColor colorWithRed:10.0/255.0
+                                        green:17.0/255.0
+                                         blue:31.0/255.0
+                                        alpha:1];
+    UIColor *darkRed = [UIColor colorWithRed:168.0 / 255
+                                       green:11.0 / 255.0
+                                        blue:31.0 / 255.0
+                                       alpha:0.5];
+    UIColor *clearGrey = [UIColor colorWithRed:227.0 / 255
+                                         green:227.0 / 255.0
+                                          blue:227.0 / 255.0
+                                         alpha:1];
+    [[UITableViewHeaderFooterView appearance] setTintColor: darkBlue];
+    [[UILabel appearanceWhenContainedIn:[UITableViewHeaderFooterView class], nil] setTextColor:[UIColor whiteColor]];
+    [[UINavigationBar appearance] setTintColor: darkRed];
+    [[UITableView appearance] setSectionIndexColor: darkRed];
+    
+}
 
 
 @end
